@@ -1,0 +1,15 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1,h2,h3,h4,h5,h6,b,p,span{
+    color: #0297E1;
+}
+
+.col-12 .text-center .border .border-primary{
+    background-color: #28276D !important;
+}

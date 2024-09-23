@@ -24,9 +24,9 @@ const SideBar = () => {
             </div>
             <div className="row">
                 <div className="col-12 w-80">
-                    <Link to={"/accounts"} >
+                    <Link to={"/members"} >
                         <button type="button" className="btn ">
-                            Account
+                            Members
                         </button>
                     </Link>
                 </div>
@@ -40,7 +40,7 @@ const SideBar = () => {
                     </Link>
                 </div>
             </div>
-           
+
             <div className="row">
                 <div className="col-12">
                     <Link to={"/ccloan"} >

@@ -3,6 +3,9 @@ import SideBar from './components/header/SideBar'
 import TopHeader from './components/header/TopHeader'
 import Dashboard from './dashboard/Dashboard'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Loan from './dashboard/Loan/Loan';
+import CcLoan from './dashboard/CClLoan/CcLoan';
+import Members from './dashboard/Member/Members';
 
 
 function App() {
@@ -19,9 +22,12 @@ function App() {
 
           <Routes>
            <Route path='/' element={<Dashboard />} />
-            <Route path='/loan' element={<Dashboard />} />
-            <Route path='/dashboard' element={<Dashboard />} />
-            <Route path='/SideBar' element={<Dashboard />} />
+           
+           <Route path='/dashboard' element={<Dashboard />} />
+           <Route path='/members' element={<Members />} />
+            <Route path='/loan' element={<Loan />} />
+            
+            <Route path='/ccloan' element={<CcLoan />} />
           
           </Routes>
           </div>

@@ -9,7 +9,9 @@ const Layout = () => {
     <div className="row">
       <div className="col-12 text-center border border-primary"> <TopHeader /></div>
       <div className="col-2 border border-primary"> <SideBar /></div>
+
       <div className="col-10 border border-primary"><Dashboard /></div>
+      
     </div>
   </div>
   )

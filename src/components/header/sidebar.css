@@ -35,3 +35,12 @@
 h2 marquee{
     color: #fff !important;
 }
+
+button a{
+    color: rgba(0, 0, 0, 0.714) !important;
+    text-decoration: none !important;
+}
+button:hover a{
+    color: #e9ecef !important;
+    transition: 0.3ms;
+}

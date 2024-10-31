@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Loan from './dashboard/Loan/Loan';
 import CcLoan from './dashboard/CClLoan/CcLoan';
 import Members from './dashboard/Member/Members';
+import LoanJoripanaCal from './dashboard/Loan Calcolotor/LoanJoripanaCal';
 
 
 function App() {
@@ -17,19 +18,22 @@ function App() {
         <div className="row">
           <div className="col-12 text-center"> <TopHeader /></div>
           <div className="col-2 border"> <SideBar /></div>
-          
+
           <div className="col-10 ">
 
-          <Routes>
-           <Route path='/' element={<Dashboard />} />
-           
-           <Route path='/dashboard' element={<Dashboard />} />
-           <Route path='/members' element={<Members />} />
-            <Route path='/loan' element={<Loan />} />
-            
-            <Route path='/ccloan' element={<CcLoan />} />
-          
-          </Routes>
+            <Routes>
+              <Route path='/' element={<Dashboard />} />
+
+              <Route path='/dashboard' element={<Dashboard />} />
+              <Route path='/members' element={<Members />} />
+              <Route path='/loan' element={<Loan />} />
+
+              <Route path='/ccloan' element={<CcLoan />} />
+
+              
+              <Route path='/calcolotor' element={<LoanJoripanaCal />} />
+
+            </Routes>
           </div>
         </div>
       </BrowserRouter>
